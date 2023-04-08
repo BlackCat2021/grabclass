@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cat.grabclass.dao.UserDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.cat.grabclass.entity.User" id="userMap">
+        <result property="id" column="id"/>
+        <result property="nickname" column="nickname"/>
+        <result property="password" column="password"/>
+        <result property="registerDate" column="register_date"/>
+        <result property="lastLoginDate" column="last_login_date"/>
+        <result property="loginCount" column="login_count"/>
+        <result property="role" column="role"/>
+    </resultMap>
+
+
+</mapper>

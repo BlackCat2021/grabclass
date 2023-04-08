@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cat.grabclass.dao.CoursesDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.cat.grabclass.entity.Courses" id="coursesMap">
+        <result property="id" column="id"/>
+        <result property="coursesName" column="courses_name"/>
+        <result property="coursesTitle" column="courses_title"/>
+        <result property="coursesImg" column="courses_img"/>
+        <result property="coursesDetail" column="courses_detail"/>
+        <result property="coursesTeacher" column="courses_teacher"/>
+        <result property="coursesStock" column="courses_stock"/>
+        <result property="coursesCapacity" column="courses_capacity"/>
+    </resultMap>
+
+
+</mapper>
