@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # miaosha
 这是一个适合学完spingboot且对高并发知识有一定了解初学者学习的项目
 
@@ -44,3 +45,7 @@
 这个项目如果对你有帮助,请给我点一个免费的star吧 ，如果我项目中有错误的地方请指出 ---- email : 3117383592@qq.com
 
 
+=======
+# grabclass
+High concurrent class rush system based on Java
+>>>>>>> 489b893 (Initial commit)
